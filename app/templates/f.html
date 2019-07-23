@@ -3,6 +3,21 @@
 <!DOCTYPE html>
 
 <html>
+    <style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+        
+        .box{
+            background: orange;
+            margin-top: 12px;
+          margin-left: -50;
+          flex: 0 0 240px;
+        }
+    </style>
 	<head>
 		<title></title>
 
@@ -15,6 +30,12 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+        <div class="container">
+          <div class="box"></div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>     
+        </div>
 	</body>
 </html>

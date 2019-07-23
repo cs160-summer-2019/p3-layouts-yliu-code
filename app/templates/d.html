@@ -3,6 +3,21 @@
 <!DOCTYPE html>
 
 <html>
+    <style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+        
+        .box{
+            background: orange;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 	<head>
 		<title></title>
 
@@ -15,6 +30,15 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+        <div class="container">
+          <div class="box">\</div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>
+            <div class="box">\ </div>   
+            <div class="box">\</div>
+                      <div class="box">\ </div>   
+            <div class="box">\</div>
+        </div>
 	</body>
 </html>

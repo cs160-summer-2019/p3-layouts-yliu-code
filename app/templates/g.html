@@ -3,6 +3,33 @@
 <!DOCTYPE html>
 
 <html>
+    <style>
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+#row3 {
+    background-color: green;
+    flex:2;
+    display: flex;
+}
+#col1 {
+    background-color: yellow;
+    flex: 0 0 240px;
+}
+#col2 {
+    background-color: orange;
+    flex: 1 1;
+}
+#col3 {
+    background-color: purple;
+    flex: 0 0 240px;
+}
+    </style>
 	<head>
 		<title></title>
 
@@ -15,6 +42,12 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
-
+<div class="wrapper">
+    <div id="row3">
+        <div id="col1">col1</div>
+        <div id="col2">col2</div>
+        <div id="col3">col3</div>
+    </div>
+</div>
 	</body>
 </html>
